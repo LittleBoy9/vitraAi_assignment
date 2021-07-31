@@ -1,0 +1,21 @@
+.selected{
+  font-weight: "bold";
+  color: #5f18eb;
+}
+.navbar-link{
+  font-size: 18px;
+  margin: 0px 15px;
+}
+@media (min-width:768px) {
+  Nav{
+    text-align: center;
+  }
+}
+
+.navbar {
+  text-align: center;
+}
+
+.container-fluid {
+  display: inline-block;
+}

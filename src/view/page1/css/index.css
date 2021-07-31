@@ -1,0 +1,136 @@
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.slider-container {
+  margin: 40px;
+  padding: 24px;
+}
+.left-btn {
+  transform: translateX(-9%) !important;
+}
+.right-btn {
+  transform: translateX(9%) !important;
+}
+.rc-slider-mark-text {
+  width: fit-content !important;
+}
+.arrow-button{
+  background-color: rgba(129, 67, 252, 0.2);
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 24px;
+}
+.arrow-button:hover{
+  cursor: pointer;
+}
+.low-upper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.heading {
+  font-size: 18px;
+}
+.gridCard {
+  width: 24rem;
+  margin: 20px 0px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  color: #5f18eb;
+}
+.round {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: rgba(129, 67, 252, 0.2);
+  border-radius: 50%;
+}
+.circle{
+  margin-top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.greencircle {
+  background: #09ed14;
+}
+.redcircle {
+  background: #f95620;
+}
+.icon {
+  font-size: 28px;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.balance {
+  margin: 16px;
+  color: dimgray;
+}
+.showModal {
+  float: right;
+  margin: 5px;
+}
+.userIcon {
+  margin: 10px;
+}
+.table-data {
+  padding: 15px;
+}
+.color {
+  color: #5f18eb;
+}
+.active-inactive {
+  color: #fff;
+  font-weight: 500;
+  padding: 1px 5px;
+  border-radius: 20px;
+}
+.friend-name {
+  padding: 5px;
+}
+.nodata {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 576px) {
+  .heading {
+    font-size: 16px;
+  }
+  .slider-container {
+    margin: 5px;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  .gridCard {
+    width: 20rem;
+    margin: 20px 0px;
+  }
+  .left-btn {
+    transform: translateX(-19%) !important;
+  }
+  .right-btn {
+    transform: translateX(19%) !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .gridCard {
+    width: 16rem;
+    /* height: 'rem'; */
+    margin: 20px 0px;
+  }
+  .left-btn {
+    transform: translateX(-19%) !important;
+  }
+  .right-btn {
+    transform: translateX(19%) !important;
+  }
+}

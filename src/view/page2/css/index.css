@@ -1,0 +1,25 @@
+.text-muted{
+  margin-top: 5px;
+}
+.page2-heading{
+  color: rgba(129,67,252,.8);
+}
+.props-balance{
+  background-color: rgba(129,67,252,.2);
+  padding: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .gridCard{  
+    width: 20rem;
+    /* height: 'rem'; */
+    margin: 20px 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .gridCard{  
+    width: 16rem;
+    /* height: 'rem'; */
+    margin: 20px 0px;
+  }
+}

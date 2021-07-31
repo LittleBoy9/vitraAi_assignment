@@ -1,0 +1,14 @@
+.grid{
+  width: 100%;
+  /* background-color: antiquewhite; */
+  
+}
+.icon-container{
+  /* float: right;
+  margin-right: 100px; */
+}
+._icon{
+  margin: 10px;
+  font-size: 25px;
+  color: #5f18eb;
+}
